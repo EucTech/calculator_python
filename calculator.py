@@ -1,4 +1,5 @@
 #!/c/Users/User/AppData/Local/Microsoft/WindowsApps/python3
+import math
 
 
 def add(*args):
@@ -28,6 +29,25 @@ def mul(*args):
     for num in args:
         value *= num
     return value
+
+def sine(*num):
+    """Sin()"""
+    return math.sin(*num)
+
+def cose(*num):
+    """cos()"""
+    return math.cos(*num)
+
+def tang(*num):
+    """tan()"""
+    return math.tan(*num)
+
+def square_root(*num):
+    """"To calculate square root"""
+    return math.sqrt(*num)
+
+def power_of(a, o, b):
+    """To calculate the power of a number"""
 
 #print(add(4, 5))
 #print(sub(2, 5))
